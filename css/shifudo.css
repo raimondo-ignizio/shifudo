@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A0A14;
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0 10px;
+}
+
+form {
+  font-size: 20px;
+}
+
+form p:last-of-type input {
+  height: 30px;
+  width: 50px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #79152E;
+  height: 60px;
+  margin: 0;
+}
+
+.header-menu li {
+  display: inline;
+  font-size: 130%;
+  margin: 0 10px;
+
+}
+
+.header-menu li a {
+  padding: 1em 10px;
+}
+
+.header-menu li a:hover {
+  color: white;
+  background-color: #666;
+}
+
+#header-logo {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+#header-logo img {
+  width: 150px;
+  height: 75px;
+}
+
+footer {
+  color: black;
+}
+
+#orario-apertura ul {
+  list-style-type: none;
+  border-top-style: solid;
+  border-top-color: #2B2329;
+}
+
+.footer-menu {
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 80px;
+}
+
+.footer-menu li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.footer-menu li a:hover {
+  color: #79152E;
+}
+
+.wpgmza_map {
+  color: black;
+}
+
+.blue-link a {
+  color: blue;
+}
+
+@media only screen and (max-width: 450px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+
+  main {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #3D1C23;
+  }
+}
