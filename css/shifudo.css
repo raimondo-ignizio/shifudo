@@ -101,6 +101,14 @@ footer {
   color: blue;
 }
 
+.error-404-not-found {
+  margin-top: 25%;
+}
+
+.error-404-not-found a {
+  color: #79152E;
+}
+
 @media only screen and (max-width: 450px) {
   p {
     font-size: 15px;
